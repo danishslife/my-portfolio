@@ -1,0 +1,283 @@
+@media screen and (max-width: 1400px) {
+  #profile {
+    height: auto;
+    min-height: 83vh;
+    margin-bottom: 6rem;
+  }
+
+  .about-containers {
+    flex-wrap: wrap;
+    margin-top: 2rem;
+  }
+}
+
+@media screen and (max-width: 1200px) {
+  #desktop-nav {
+    display: none;
+  }
+
+  #hamburger-nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    padding: 0 5%;
+    box-sizing: border-box;
+  }
+
+  .menu-links {
+    z-index: 100;
+  }
+
+  #profile {
+    flex-direction: column;
+    height: auto;
+    min-height: auto;
+    gap: 2rem;
+    padding: 2rem 0 4rem;
+    margin-bottom: 2rem;
+  }
+
+  #profile .section__pic-container {
+    margin: 0 auto;
+    min-width: unset;
+    min-height: unset;
+    width: 280px;
+    height: 280px;
+  }
+
+  .section-container {
+    flex-direction: column;
+    height: auto;
+    gap: 2rem;
+  }
+
+  #about .section__pic-container {
+    width: min(320px, 85vw);
+    height: auto;
+    min-width: unset;
+    min-height: unset;
+    aspect-ratio: 340 / 430;
+    max-height: 50vh;
+    margin: 0 auto 1rem;
+  }
+
+  #about .section__pic-container img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+  }
+
+  .about-details-container {
+    width: 100%;
+  }
+
+  .arrow {
+    display: none;
+  }
+
+  section,
+  .section-container {
+    height: fit-content;
+  }
+
+  section {
+    margin: 0 5%;
+    padding-top: 6vh;
+    padding-bottom: 4rem;
+  }
+
+  #experience .title {
+    margin-bottom: 2.5rem;
+  }
+
+  #experience .about-containers {
+    flex-direction: column;
+  }
+
+  #projects .about-containers {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  #projects .details-container {
+    width: 100%;
+    max-width: 400px;
+  }
+}
+
+@media screen and (max-width: 900px) {
+  #experience .article-container {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+
+  .contact-info-upper-container {
+    flex-wrap: wrap;
+    gap: 1rem;
+    padding: 1.25rem;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  #contact,
+  footer {
+    height: auto;
+    min-height: fit-content;
+    padding-bottom: 2rem;
+  }
+
+  #profile {
+    margin-bottom: 0;
+    padding-bottom: 2rem;
+  }
+
+  #profile .section__pic-container {
+    width: min(240px, 65vw);
+    height: min(240px, 65vw);
+  }
+
+  #about .section__pic-container {
+    width: min(280px, 90vw);
+    max-height: none;
+  }
+
+  article {
+    font-size: 1rem;
+  }
+
+  footer nav {
+    height: fit-content;
+    margin-bottom: 2rem;
+  }
+
+  .about-containers,
+  .contact-info-upper-container,
+  .btn-container {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .about-containers {
+    flex-direction: column;
+    width: 100%;
+  }
+
+  .details-container {
+    width: 100%;
+    box-sizing: border-box;
+  }
+
+  .contact-info-container {
+    margin: 0;
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .contact-info-container p,
+  .nav-links li a {
+    font-size: 1rem;
+  }
+
+  .contact-info-upper-container {
+    flex-direction: column;
+    align-items: center;
+    margin: 1rem auto;
+    width: 100%;
+    box-sizing: border-box;
+  }
+
+  #experience .experience-sub-title {
+    font-size: 1.25rem;
+  }
+
+  .experience-sub-title {
+    font-size: 1.25rem;
+  }
+
+  #experience .title {
+    margin-bottom: 2rem;
+  }
+
+  #experience .article-container {
+    grid-template-columns: 1fr;
+  }
+
+  #experience .details-container {
+    padding: 1.5rem;
+  }
+
+  .logo {
+    font-size: 1.5rem;
+  }
+
+  .nav-links {
+    flex-direction: column;
+    gap: 0.5rem;
+    text-align: center;
+    padding: 0;
+  }
+
+  .section__pic-container {
+    width: min(240px, 70vw);
+    height: min(240px, 70vw);
+    min-width: unset;
+    min-height: unset;
+    margin: 0 auto 1.5rem;
+  }
+
+  .section__text__p2 {
+    font-size: 1.25rem;
+  }
+
+  .title {
+    font-size: 2rem;
+  }
+
+  .text-container {
+    text-align: justify;
+  }
+
+  .btn {
+    width: 7rem;
+    padding: 0.75rem;
+    font-size: 0.9rem;
+  }
+
+  .project-title {
+    font-size: 1.1rem;
+  }
+}
+
+@media screen and (max-width: 375px) {
+  section {
+    margin: 0 3%;
+    padding-top: 5vh;
+  }
+
+  #hamburger-nav {
+    padding: 0 3%;
+  }
+
+  .title {
+    font-size: 1.75rem;
+  }
+
+  .section__text__p1 {
+    font-size: 1rem;
+  }
+
+  .btn-container {
+    gap: 0.5rem;
+  }
+
+  .btn {
+    width: 6.5rem;
+    padding: 0.65rem;
+    font-size: 0.85rem;
+  }
+
+  #profile .section__pic-container {
+    width: min(220px, 75vw);
+    height: min(220px, 75vw);
+  }
+}
