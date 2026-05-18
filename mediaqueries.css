@@ -91,6 +91,10 @@
     margin-bottom: 2.5rem;
   }
 
+  #projects .title {
+    margin-bottom: 2.5rem;
+  }
+
   #experience .about-containers {
     flex-direction: column;
   }

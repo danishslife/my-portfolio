@@ -473,9 +473,18 @@ article .icon {
   position: relative;
 }
 
+#projects .title {
+  margin-bottom: 4rem;
+}
+
+#projects .experience-details-container {
+  margin-top: 1.5rem;
+}
+
 #projects .about-containers {
   flex-wrap: wrap;
   justify-content: center;
+  gap: 2.5rem;
 }
 
 #projects .color-container {
